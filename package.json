@@ -1,0 +1,19 @@
+{
+  "name": "apium-webdriver-io",
+  "version": "1.0.0",
+  "description": "> Learn how to use apium & web driver io for mobile app testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryosmar/apium-webdriver-io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harryosmar/apium-webdriver-io/issues"
+  },
+  "homepage": "https://github.com/harryosmar/apium-webdriver-io#readme"
+}
