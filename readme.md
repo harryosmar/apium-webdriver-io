@@ -4,7 +4,7 @@ NodeJS
 java 
 Appium server 
 Appium desktop  
-Genymotion (optional) 
+Genymotion/ Android Studio (optional) 
 ```
 
 #### How to setup: 
