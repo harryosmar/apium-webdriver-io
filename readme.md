@@ -4,14 +4,13 @@ NodeJS
 java 
 Appium server 
 Appium desktop  
-Docker 
 Genymotion (optional) 
 ```
 
 #### How to setup: 
 ```
 Clone the Repository :  
-https://github.com/pt-kompas-media-nusantara/kompas-android-automation 
+https://github.com/harryosmar/apium-webdriver-io.git
 Npm i (install the node modules and package-lock) 
 Create .env `cp env.sample .env` 
 ``` 
