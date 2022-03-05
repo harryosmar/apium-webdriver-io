@@ -1,21 +1,47 @@
-# Mobile App Testing
-
-> Learn how to use apium & web driver io for mobile app testing
-
-## How to Start
-
-1. install `nodejs` https://nodejs.org/en/download/
-
-2. init npm project, creating `package.json`
-```shell
-npm init
+#### Requirement : 
+```
+NodeJS 
+java 
+Appium server 
+Appium desktop  
+Docker 
+Genymotion (optional) 
 ```
 
-3. install all dependencies
-```shell
-npm install ...
+#### How to setup: 
 ```
+Clone the Repository :  
+https://github.com/pt-kompas-media-nusantara/kompas-android-automation 
+Npm i (install the node modules and package-lock) 
+Create .env `cp env.sample .env` 
+``` 
 
-4. install Apium for Desktop https://appium.io/
+#### How to run via genymotion : 
+```
+Turn on the emulator 
+Type Adb devices in terminal to get udid 
+Copy to .env  
+``` 
 
-5. install Genymotion Emulator https://www.genymotion.com/
+#### How to run scenario : 
+```
+Npm run test @tags for specific tags 
+Npm run test for run all scenario 
+``` 
+
+#### How to use Appium Desktop : 
+```
+Run the appium desktop 
+Start server 
+Start inspection session 
+Edit raw json 
+Input this json 
+
+ { 
+    "platformName": "Android", 
+    "deviceName": "udid", 
+    "app": "/home/username/Desktop/kompasid.apk" 
+} 
+
+Start Session 
+``` 
